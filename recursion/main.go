@@ -8,7 +8,7 @@ func main() {
 	println(result)
 }
 
-func recursion(input int) (result int) {
+func recursion(input int) int {
 	if input > 1 {
 		return (input * recursion(input-1))
 	} else if input >= 0 {
